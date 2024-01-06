@@ -1,0 +1,64 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+                 transition: 0.4s;
+        }
+        .picsbox {
+            height:80px;
+            width:400px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            border:2px solid black;
+            border-radius: 20px;
+            position: absolute;
+            position: fixed;
+            left:100px;
+            top:10px;
+            z-index: 1;
+            overflow: hidden;
+            outline: 3px solid black;
+            outline-offset: 3px;
+         
+
+        
+        }
+      
+        .picsbox img {
+            height: 80px;
+            width:100px;
+             border-radius: 30px;
+        }
+     
+        .picsbox img:hover {
+            height:200px;
+            width:200px;
+          
+            transform: translate(0px, 50px);
+            
+        }
+        .picsbox:hover {
+            overflow:visible;
+        }
+       
+        
+    </style>
+    
+</head>
+<body>
+    <div class="picsbox">
+        <img src="https://t4.ftcdn.net/jpg/06/54/76/35/240_F_654763571_3ZFQEMEtUqKvDsAAiGwGJu93nPNhcMV5.jpg" alt="programig">
+        <img src="https://t4.ftcdn.net/jpg/06/58/77/39/240_F_658773941_EsIwIbpDYZ6wPHAVR1kGU1g34MxR9Vu1.jpg" alt="a girl with a laptop">
+        <img src="https://t3.ftcdn.net/jpg/06/39/35/68/240_F_639356858_HOqUY3b8J2IQKPetqdB2yuWXCERWpDV2.jpg" alt="some people discusing about compony">
+        <img src="https://t3.ftcdn.net/jpg/03/96/86/92/240_F_396869218_C4wxGCd4PntkZ2AGcbZAYCfw8S1Bf1ri.jpg" alt="shoftwre devlopment">
+       
+    </div>
+  
+    
+</body>
+</html>
